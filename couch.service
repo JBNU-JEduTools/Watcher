@@ -1,0 +1,11 @@
+[Unit]
+After=mysql.service
+
+[Service]
+User=hjung
+Group=adm
+ExecStart=/home/hjung/Project/couch/Couch/Couch.sh
+
+[Install]
+WantedBy=multi-user.target
+
