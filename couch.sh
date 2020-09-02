@@ -18,7 +18,7 @@ while [ 1 ]; do
 
 	ACTDIR=( `ls -t $HOME | grep hw`) # 최근 변경된 폴더만 확인
 	if [ $ACTDIR ]; then
-		FILENAME=( `ls $HOME/${ACTDIR}| grep \\.c` ) # 해당 폴더의 파일 확인
+		FILENAME=( `ls -t $HOME/${ACTDIR}| grep \\.c` ) # 해당 폴더의 파일 확인
 		for i in $FILENAME; do
 			if [ ! -d $ARCH/${ACTDIR}/${i}/ ]; then 
 				mkdir ${ARCH}/${ACTDIR}/${i} # 해당 폴더의 파일중 새로 생성된 파일이 있다면 해당 파일의 키로깅 폴더 생성
