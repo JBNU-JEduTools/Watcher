@@ -20,6 +20,7 @@ Couch 는 학생들이 VS-Code 에서 작업하는 코드의 변경 이력을 �
 
 이력 변경 내용은 아래와 같이 Animated GIF로 자동 변환되어 보관되고,
 교수자 및 수업 조교가 시각적으로 쉽게 이상 유무를 파악할 수 있습니다.
+이에 더해 소스 파일들의 변경 내용을 분석하여 이상 유무를 즉각 리포팅 하는 기능도 준비 중입니다.
 
 https://github.com/hyunchan-park/Couch/raw/master/code.gif
 
