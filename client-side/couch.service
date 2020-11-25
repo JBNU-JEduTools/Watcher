@@ -2,9 +2,7 @@
 After=mysql.service
 
 [Service]
-User=hjung
-Group=adm
-ExecStart=/home/hjung/Project/couch/Couch/Couch.sh
+ExecStart=/home/ubuntu/Couch/couch.sh
 
 [Install]
 WantedBy=multi-user.target
