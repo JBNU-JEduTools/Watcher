@@ -1,9 +1,0 @@
-[Unit]
-After=mysql.service
-
-[Service]
-ExecStart=/home/ubuntu/Couch/couch.sh
-
-[Install]
-WantedBy=multi-user.target
-
