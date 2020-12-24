@@ -22,7 +22,7 @@ Couch 는 학생들이 VS-Code 에서 작업하는 코드의 변경 이력을 �
 교수자 및 수업 조교가 시각적으로 쉽게 이상 유무를 파악할 수 있습니다.
 이에 더해 소스 파일들의 변경 내용을 분석하여 이상 유무를 즉각 리포팅 하는 기능도 준비 중입니다.
 
-https://github.com/hyunchan-park/Couch/raw/master/code.gif
+![Animated GIF example](https://github.com/hyunchan-park/Couch/raw/master/code.gif)
 
 이러한 시스템은 학생들의 과제 수행 내역을 보다 공정하게 평가하는데 도움을 주고,
 결국 학생들에게 프로그래밍 수업의 평가가 공정하게 이루어지고 있다는 신뢰를 줄 수 있습니다.
